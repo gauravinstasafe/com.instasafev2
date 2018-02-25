@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="0" failures="1" finished="true" name="Test Run: 21" tests="3" total_time="Finished in: 36.57 secs."/>
+<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="ok" test="ControllerTests.test_close_whatfix_window" time="10.21">
+<stdout><![CDATA[controller_tests.py         26 INFO     try to close whatfix_window
+controller_Page.py          93 INFO     waiting for the element
+selenium_driver.py          72 INFO     Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+selenium_driver.py         299 INFO     switch to i frame
+controller_Page.py          96 INFO     switching frame now
+selenium_driver.py          72 INFO     Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+controller_tests.py         28 INFO     close_whatfix_window]]></stdout>
+<stderr/>
+</test>
+<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="ok" test="ControllerTests.test_open_add_window" time="2.69">
+<stdout><![CDATA[controller_tests.py         32 INFO     test_open_add_window
+selenium_driver.py         222 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
+selenium_driver.py         229 INFO     Element appeared on the web page
+selenium_driver.py          72 INFO     Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+selenium_driver.py         222 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
+selenium_driver.py         229 INFO     Element appeared on the web page
+selenium_driver.py          72 INFO     Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+selenium_driver.py          72 INFO     Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+selenium_driver.py          72 INFO     Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+selenium_driver.py         168 INFO     Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+controller_Page.py          46 INFO     Add window appear status is True]]></stdout>
+<stderr/>
+</test>
+<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="fail" test="ControllerTests.test_t1AddController" time="7.89">
+<stdout><![CDATA[controller_tests.py         37 INFO     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+controller_tests.py         38 INFO     test_t1Addcontroller start
+controller_tests.py         39 INFO     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+selenium_driver.py          72 INFO     Element found with locator: .//*[@id='port'] and  locatorType: xpath
+selenium_driver.py          72 INFO     Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+selenium_driver.py         260 INFO     run single drop down element
+selenium_driver.py          89 INFO     Element list found with locator: .//div[@role='option'] and locatorType: xpath
+selenium_driver.py         266 INFO     demoisc1
+selenium_driver.py         266 INFO     isademo
+selenium_driver.py          72 INFO     Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+selenium_driver.py         121 INFO     Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+selenium_driver.py         260 INFO     run single drop down element
+selenium_driver.py          89 INFO     Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+selenium_driver.py         266 INFO     Select Protocol
+selenium_driver.py         266 INFO     TCP
+selenium_driver.py          72 INFO     Element found with locator: .//*[@id='port'] and  locatorType: xpath
+selenium_driver.py         121 INFO     Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+selenium_driver.py          72 INFO     Element found with locator: .//*[@id='network'] and  locatorType: xpath
+selenium_driver.py         121 INFO     Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+selenium_driver.py          72 INFO     Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+selenium_driver.py         260 INFO     run single drop down element
+selenium_driver.py          89 INFO     Element list found with locator: .//div[@role='option'] and locatorType: xpath
+selenium_driver.py         266 INFO     16
+selenium_driver.py         266 INFO     17
+selenium_driver.py         266 INFO     18
+selenium_driver.py         266 INFO     19
+selenium_driver.py         266 INFO     20
+selenium_driver.py         266 INFO     21
+selenium_driver.py         266 INFO     22
+selenium_driver.py         266 INFO     23
+selenium_driver.py         266 INFO     24
+selenium_driver.py         266 INFO     25
+selenium_driver.py         266 INFO     26
+selenium_driver.py         266 INFO     27
+selenium_driver.py          72 INFO     Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+selenium_driver.py          72 INFO     Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+selenium_driver.py         105 INFO     Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+controller_Page.py         124 INFO     #########################]]></stdout>
+<stderr><![CDATA[self = <tests.controller_tests.ControllerTests testMethod=test_t1AddController>
+
+    @pytest.mark.run( after = "test_open_add_window")
+    def test_t1AddController(self):
+        self.log.info("*#" * 20)
+        self.log.info("test_t1Addcontroller start")
+        self.log.info("*#" * 20)
+>       self.cp.add_Single_Controller("isademo", "test", "TCP", "1270", "10.12.70.0", "27")
+
+controller_tests.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\pages\companyPortal\controller_Page.py:125: in add_Single_Controller
+    self.refresh()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <pages.companyPortal.controller_Page.ControllerPages object at 0x034F23D0>
+
+    def refresh(self):
+>       self.drive.refresh()
+E       AttributeError: 'ControllerPages' object has no attribute 'drive'
+
+..\base\selenium_driver.py:315: AttributeError]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="com.instasafev2 controller_tests.py"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

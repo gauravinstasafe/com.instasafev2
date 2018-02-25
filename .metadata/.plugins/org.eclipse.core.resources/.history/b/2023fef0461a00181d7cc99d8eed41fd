@@ -1,0 +1,1147 @@
+02/19/2018 02:38:51 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 02:38:51 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 02:38:51 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 02:38:51 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 02:38:51 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 02:38:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:38:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:38:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:38:56 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:38:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:38:56 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:38:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:38:57 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:38:57 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:38:58 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:38:58 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:38:58 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:38:58 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 02:38:58 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 02:38:58 PM - ControllerTests - test_AddMultipleControllers - 49 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 02:38:58 PM - ControllerTests - test_AddMultipleControllers - 50 - INFO: test_AddMultiplecontroller start
+02/19/2018 02:38:58 PM - ControllerTests - test_AddMultipleControllers - 51 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 02:39:05 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 02:39:05 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 02:39:05 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/19/2018 02:39:05 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/19/2018 02:39:28 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 02:39:28 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 02:39:28 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 02:39:36 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 02:43:31 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 02:43:31 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 02:43:31 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/19/2018 02:43:31 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/19/2018 02:44:02 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 02:45:24 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 02:45:24 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 02:45:24 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 02:45:24 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 02:45:24 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 02:45:28 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:45:28 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:45:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:45:30 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:45:30 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 02:45:30 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 02:45:30 PM - ControllerTests - test_AddMultipleControllers - 49 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 02:45:30 PM - ControllerTests - test_AddMultipleControllers - 50 - INFO: test_AddMultiplecontroller start
+02/19/2018 02:45:30 PM - ControllerTests - test_AddMultipleControllers - 51 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 02:46:00 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 02:46:00 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 02:46:00 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 02:46:31 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 02:47:01 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 02:47:01 PM - ControllerPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 02:47:01 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 02:47:32 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 02:48:02 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 02:48:02 PM - ControllerPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//*[@id='port'] locatorType: xpath
+02/19/2018 02:48:32 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='network'] and  locatorType: xpath
+02/19/2018 02:48:32 PM - ControllerPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//*[@id='network'] locatorType: xpath
+02/19/2018 02:49:02 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 02:49:02 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/19/2018 02:49:02 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 02:49:33 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 02:49:33 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 02:49:33 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 02:49:33 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 02:49:33 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 02:49:36 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:49:36 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:49:36 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:49:36 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:49:36 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:49:36 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:49:38 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 02:49:40 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 02:49:40 PM - ControllerTests - test_AddMultipleControllers - 49 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 02:49:40 PM - ControllerTests - test_AddMultipleControllers - 50 - INFO: test_AddMultiplecontroller start
+02/19/2018 02:49:40 PM - ControllerTests - test_AddMultipleControllers - 51 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 02:50:10 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 02:50:10 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 02:50:10 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 02:50:41 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 02:51:11 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 02:51:11 PM - ControllerPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 02:51:11 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 02:51:42 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 02:52:50 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 02:52:50 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 02:52:50 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 02:52:50 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 02:52:50 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 02:52:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:52:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:52:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:52:54 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:52:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 02:52:54 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 02:52:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 02:52:56 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 02:52:56 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 02:52:56 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 02:53:06 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 02:53:06 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 02:53:06 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 02:53:36 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[@class='WFSTAY'] and  locatorType: xpath
+02/19/2018 02:53:36 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@class='WFSTAY'] locatorType: Xpath
+02/19/2018 02:53:36 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 02:53:36 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 02:53:36 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 02:53:36 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 02:53:36 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 02:53:36 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 02:53:36 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 02:53:47 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 02:53:47 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 02:53:47 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 02:54:17 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 02:54:17 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 02:54:47 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 02:54:47 PM - ControllerPages - isElementPresent - 172 - INFO: Element not present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 02:54:47 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is False
+02/19/2018 03:03:29 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 03:03:29 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 03:03:29 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 03:03:29 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 03:03:29 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 03:03:31 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:03:32 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:03:33 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:03:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:03:33 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:03:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 03:03:33 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 03:03:33 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 03:03:33 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 03:03:43 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 03:03:43 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 03:03:43 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 03:03:43 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/19/2018 03:03:43 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/19/2018 03:03:43 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 03:03:43 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 03:03:43 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 03:03:43 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 03:03:43 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 03:03:44 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 03:03:44 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 03:03:44 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 03:03:44 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 03:03:45 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 03:03:45 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 03:03:46 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 03:03:46 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 03:03:46 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 03:03:46 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/19/2018 03:05:52 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 03:05:52 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 03:05:52 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 03:05:52 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 03:05:52 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 03:05:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:05:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:05:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:05:56 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 03:05:57 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 03:05:57 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 03:05:57 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 03:06:07 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 03:06:07 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 03:06:07 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 03:06:07 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/19/2018 03:06:07 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/19/2018 03:06:07 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 03:06:07 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 03:06:07 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 03:06:07 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 03:06:07 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 03:06:07 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 03:06:07 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 03:06:07 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 03:06:07 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 03:06:18 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 03:06:18 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 03:06:18 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 03:06:19 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 03:06:19 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 03:06:19 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/19/2018 03:06:19 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 03:06:19 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/19/2018 03:06:19 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 03:06:21 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 03:06:21 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 03:06:21 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 03:06:21 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 03:06:22 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 03:06:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: mumbai1
+02/19/2018 03:06:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: mumbai2
+02/19/2018 03:06:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: mumbai3
+02/19/2018 03:06:22 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 03:06:22 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 03:06:22 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 03:06:23 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 03:06:23 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/19/2018 03:06:23 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/19/2018 03:06:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 03:06:24 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/19/2018 03:06:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/19/2018 03:06:24 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/19/2018 03:06:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 03:06:25 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/19/2018 03:06:25 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 03:06:26 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/19/2018 03:06:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/19/2018 03:06:27 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 03:06:27 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 03:06:27 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/19/2018 03:06:27 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/19/2018 03:06:27 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/19/2018 03:06:27 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/19/2018 03:06:58 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 03:07:28 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/19/2018 03:07:28 PM - ControllerPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/19/2018 03:16:57 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 03:16:57 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 03:16:57 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 03:16:57 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 03:16:57 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 03:17:00 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:17:00 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:17:00 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:17:00 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 03:17:00 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 03:17:01 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 03:17:01 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 03:17:01 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 03:17:11 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 03:17:11 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 03:17:11 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 03:17:11 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/19/2018 03:17:12 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/19/2018 03:17:12 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 03:17:12 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 03:17:12 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 03:17:12 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 03:17:12 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 03:17:12 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 03:17:12 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 03:17:12 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 03:17:12 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 03:17:14 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 03:17:14 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 03:17:14 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 03:17:15 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 03:17:15 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 03:17:15 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/19/2018 03:17:15 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 03:17:15 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/19/2018 03:17:15 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 03:17:17 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 03:17:17 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 03:17:17 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 03:17:17 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 03:17:18 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 03:17:18 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/19/2018 03:17:18 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/19/2018 03:17:18 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 03:17:18 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 03:17:18 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 03:17:19 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/19/2018 03:17:20 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/19/2018 03:17:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/19/2018 03:17:20 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 03:17:21 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 03:17:21 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/19/2018 03:17:21 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/19/2018 03:17:21 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/19/2018 03:17:21 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/19/2018 03:17:22 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/19/2018 03:17:22 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 03:17:22 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 03:17:22 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/19/2018 03:17:23 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/19/2018 03:17:23 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/19/2018 03:17:23 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/19/2018 03:17:54 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 03:18:24 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/19/2018 03:18:24 PM - ControllerPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/19/2018 04:40:50 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 04:40:50 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 04:40:50 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 04:40:50 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 04:40:50 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 04:40:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:40:54 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:40:55 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:40:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:40:55 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:40:55 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 04:40:55 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 04:40:55 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 04:40:55 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 04:41:38 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 04:41:38 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 04:41:38 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 04:41:38 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 04:41:38 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 04:41:43 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:41:43 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:41:43 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 04:41:44 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 04:41:44 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 04:41:44 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 04:41:55 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 04:41:55 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 04:41:55 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 04:41:55 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/19/2018 04:41:55 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/19/2018 04:41:55 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 04:41:55 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 04:41:55 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 04:41:55 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 04:41:55 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 04:41:55 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 04:41:55 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 04:41:55 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 04:41:55 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 04:41:57 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 04:41:57 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 04:41:57 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 04:41:57 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 04:41:57 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 04:41:57 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/19/2018 04:41:57 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 04:41:57 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/19/2018 04:41:57 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 04:42:00 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 04:42:00 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 04:42:00 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 04:42:00 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:42:01 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 04:42:01 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/19/2018 04:42:01 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/19/2018 04:42:01 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 04:42:01 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 04:42:01 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:42:02 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 04:42:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/19/2018 04:42:03 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/19/2018 04:42:03 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 04:42:03 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/19/2018 04:42:03 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/19/2018 04:42:03 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/19/2018 04:42:03 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 04:42:03 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/19/2018 04:42:03 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:42:04 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 04:42:04 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/19/2018 04:42:04 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/19/2018 04:42:04 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/19/2018 04:42:04 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/19/2018 04:42:04 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/19/2018 04:42:05 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/19/2018 04:42:05 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 04:42:05 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 04:42:06 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/19/2018 04:42:06 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/19/2018 04:42:06 PM - ControllerTests - test_t1AddController - 41 - INFO: controller add process complete now verify newly added controller
+02/19/2018 04:42:06 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/19/2018 04:42:06 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/19/2018 04:42:37 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 04:42:57 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/19/2018 04:42:57 PM - ControllerPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/19/2018 04:43:04 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 04:43:04 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 04:43:04 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 04:43:04 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 04:43:04 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 04:43:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:43:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:43:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:43:08 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:43:08 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:43:08 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:43:08 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 04:43:10 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 04:43:10 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 04:43:10 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 04:43:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 04:43:20 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 04:43:20 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 04:43:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/19/2018 04:43:21 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/19/2018 04:43:21 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 04:43:21 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 04:43:21 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 04:43:21 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 04:43:21 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 04:43:21 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 04:43:21 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 04:43:21 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 04:43:21 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 04:43:23 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 04:43:23 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 04:43:23 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 04:43:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 04:43:24 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 04:43:24 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/19/2018 04:43:24 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 04:43:24 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/19/2018 04:43:24 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 04:43:26 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 04:43:26 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 04:43:26 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 04:43:26 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:43:27 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 04:43:27 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/19/2018 04:43:27 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/19/2018 04:43:27 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 04:43:28 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 04:43:28 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:43:29 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/19/2018 04:43:29 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/19/2018 04:43:29 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/19/2018 04:43:29 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:43:30 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 04:43:30 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/19/2018 04:43:30 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/19/2018 04:43:31 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/19/2018 04:43:31 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 04:43:31 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 04:43:31 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/19/2018 04:43:32 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/19/2018 04:43:32 PM - ControllerTests - test_t1AddController - 41 - INFO: controller add process complete now verify newly added controller
+02/19/2018 04:43:32 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/19/2018 04:43:32 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/19/2018 04:44:03 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/19/2018 04:44:33 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/19/2018 04:44:33 PM - ControllerPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/19/2018 04:54:08 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/19/2018 04:54:08 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/19/2018 04:54:08 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/19/2018 04:54:08 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/19/2018 04:54:08 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/19/2018 04:54:12 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:54:12 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:54:12 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:54:12 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:54:12 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/19/2018 04:54:13 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/19/2018 04:54:14 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/19/2018 04:54:14 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/19/2018 04:54:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/19/2018 04:54:24 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/19/2018 04:54:24 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/19/2018 04:54:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/19/2018 04:54:24 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/19/2018 04:54:24 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/19/2018 04:54:24 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/19/2018 04:54:24 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 04:54:24 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 04:54:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/19/2018 04:54:24 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/19/2018 04:54:24 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/19/2018 04:54:24 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/19/2018 04:54:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/19/2018 04:54:26 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/19/2018 04:54:26 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/19/2018 04:54:26 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/19/2018 04:54:27 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/19/2018 04:54:27 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/19/2018 04:54:27 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/19/2018 04:54:27 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 04:54:27 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/19/2018 04:54:27 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/19/2018 04:54:29 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 04:54:29 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 04:54:29 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/19/2018 04:54:29 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:54:30 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 04:54:30 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/19/2018 04:54:30 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/19/2018 04:54:30 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/19/2018 04:54:30 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/19/2018 04:54:30 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:54:32 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/19/2018 04:54:32 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/19/2018 04:54:32 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/19/2018 04:54:32 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/19/2018 04:54:33 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/19/2018 04:54:33 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/19/2018 04:54:33 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/19/2018 04:54:33 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/19/2018 04:54:33 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/19/2018 04:54:34 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/19/2018 04:54:34 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/19/2018 04:54:34 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/19/2018 04:54:34 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/19/2018 04:54:35 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/20/2018 03:39:36 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/20/2018 03:39:36 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/20/2018 03:39:36 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/20/2018 03:39:36 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/20/2018 03:39:36 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/20/2018 03:39:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:39:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:39:42 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:39:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:39:42 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:39:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/20/2018 03:39:42 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/20/2018 03:39:42 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/20/2018 03:39:42 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/20/2018 03:39:52 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/20/2018 03:39:52 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/20/2018 03:39:52 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/20/2018 03:39:52 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/20/2018 03:39:52 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/20/2018 03:39:52 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/20/2018 03:39:52 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/20/2018 03:39:52 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 03:39:52 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:39:52 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/20/2018 03:39:52 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/20/2018 03:39:52 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 03:39:53 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:39:53 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/20/2018 03:39:55 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/20/2018 03:39:55 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/20/2018 03:39:55 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/20/2018 03:39:55 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/20/2018 03:39:55 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/20/2018 03:39:55 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/20/2018 03:39:55 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 03:39:55 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/20/2018 03:39:55 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 03:39:57 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 03:39:57 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 03:39:58 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/20/2018 03:39:58 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:39:59 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 03:39:59 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/20/2018 03:39:59 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/20/2018 03:39:59 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/20/2018 03:39:59 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/20/2018 03:39:59 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:40:00 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/20/2018 03:40:00 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/20/2018 03:40:00 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/20/2018 03:40:01 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 03:40:01 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/20/2018 03:40:01 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/20/2018 03:40:01 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/20/2018 03:40:01 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 03:40:01 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/20/2018 03:40:01 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:40:02 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/20/2018 03:40:02 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/20/2018 03:40:03 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/20/2018 03:40:03 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/20/2018 03:40:03 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/20/2018 03:40:03 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/20/2018 03:40:03 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/20/2018 03:40:03 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/20/2018 03:41:59 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/20/2018 03:41:59 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/20/2018 03:41:59 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/20/2018 03:41:59 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/20/2018 03:41:59 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/20/2018 03:42:03 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:42:03 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:42:03 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:42:04 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 03:42:04 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:42:04 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 03:42:04 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:42:04 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:42:04 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:42:05 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:42:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:42:05 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:42:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/20/2018 03:42:05 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/20/2018 03:42:05 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/20/2018 03:42:05 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/20/2018 03:42:15 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/20/2018 03:42:15 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/20/2018 03:42:15 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/20/2018 03:42:15 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/20/2018 03:42:15 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/20/2018 03:42:15 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/20/2018 03:42:15 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/20/2018 03:42:15 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 03:42:15 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:42:15 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/20/2018 03:42:15 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/20/2018 03:42:15 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 03:42:16 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:42:16 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/20/2018 03:42:17 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/20/2018 03:42:17 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/20/2018 03:42:17 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/20/2018 03:42:18 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/20/2018 03:42:18 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/20/2018 03:42:18 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/20/2018 03:42:18 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 03:42:18 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/20/2018 03:42:18 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 03:42:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 03:42:20 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 03:42:20 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/20/2018 03:42:20 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:42:21 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 03:42:21 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/20/2018 03:42:21 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/20/2018 03:42:22 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/20/2018 03:42:22 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/20/2018 03:42:22 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:42:23 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/20/2018 03:42:23 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/20/2018 03:42:23 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/20/2018 03:42:23 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:42:24 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/20/2018 03:42:25 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/20/2018 03:42:25 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/20/2018 03:42:26 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/20/2018 03:42:26 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/20/2018 03:42:26 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/20/2018 03:42:26 PM - ControllerPages - add_Single_Controller - 124 - INFO: #########################
+02/20/2018 03:47:22 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/20/2018 03:47:22 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/20/2018 03:47:22 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/20/2018 03:47:22 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/20/2018 03:47:22 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/20/2018 03:47:28 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:47:28 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:47:28 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:47:28 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 03:47:28 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/20/2018 03:47:29 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/20/2018 03:47:29 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/20/2018 03:47:29 PM - ControllerPages - close_Whatfix_Windows - 93 - INFO: waiting for the element
+02/20/2018 03:47:39 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/20/2018 03:47:39 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/20/2018 03:47:39 PM - ControllerPages - close_Whatfix_Windows - 96 - INFO: switching frame now
+02/20/2018 03:47:39 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/20/2018 03:47:40 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/20/2018 03:47:40 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/20/2018 03:47:40 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/20/2018 03:47:40 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 03:47:40 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:47:40 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/20/2018 03:47:40 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/20/2018 03:47:40 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 03:47:40 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:47:40 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/20/2018 03:47:42 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/20/2018 03:47:42 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/20/2018 03:47:42 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/20/2018 03:47:43 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/20/2018 03:47:43 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/20/2018 03:47:43 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/20/2018 03:47:43 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 03:47:43 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/20/2018 03:47:43 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 03:47:45 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 03:47:45 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 03:47:45 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/20/2018 03:47:45 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:47:46 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 03:47:46 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/20/2018 03:47:46 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/20/2018 03:47:46 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/20/2018 03:47:46 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/20/2018 03:47:46 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:47:48 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/20/2018 03:47:48 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/20/2018 03:47:48 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/20/2018 03:47:48 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 03:47:49 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 03:47:49 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/20/2018 03:47:50 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/20/2018 03:47:50 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/20/2018 03:47:51 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/20/2018 03:47:51 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/20/2018 03:47:51 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/20/2018 03:47:51 PM - ControllerPages - add_Single_Controller - 124 - INFO: #########################
+02/20/2018 03:47:56 PM - ControllerPages - add_Single_Controller - 126 - INFO: #########################
+02/20/2018 03:47:56 PM - ControllerPages - add_Single_Controller - 128 - INFO: #########################
+02/20/2018 03:47:56 PM - ControllerTests - test_t1AddController - 41 - INFO: controller add process complete now verify newly added controller
+02/20/2018 03:47:56 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/20/2018 03:47:56 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/20/2018 03:47:56 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 03:47:56 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/20/2018 03:47:56 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/20/2018 04:10:59 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+02/20/2018 04:10:59 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/20/2018 04:10:59 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/20/2018 04:10:59 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/20/2018 04:10:59 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 04:11:05 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/20/2018 04:11:06 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/20/2018 04:11:06 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/20/2018 04:11:06 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/20/2018 04:11:06 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/20/2018 04:11:06 PM - ControllerPages - close_Whatfix_Windows - 91 - INFO: waiting for the element
+02/20/2018 04:11:16 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/20/2018 04:11:16 PM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/20/2018 04:11:16 PM - ControllerPages - close_Whatfix_Windows - 94 - INFO: switching frame now
+02/20/2018 04:11:16 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/20/2018 04:11:16 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/20/2018 04:11:16 PM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/20/2018 04:11:16 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/20/2018 04:11:16 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 04:11:16 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 04:11:16 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/20/2018 04:11:16 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/20/2018 04:11:16 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/20/2018 04:11:16 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 04:11:16 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/20/2018 04:11:18 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/20/2018 04:11:18 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/20/2018 04:11:19 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/20/2018 04:11:19 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/20/2018 04:11:19 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/20/2018 04:11:19 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/20/2018 04:11:19 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 04:11:19 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/20/2018 04:11:19 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/20/2018 04:11:21 PM - ControllerPages - add_Single_Controller - 113 - INFO: clear all data field
+02/20/2018 04:11:21 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 04:11:21 PM - ControllerPages - add_Single_Controller - 115 - INFO: select cloud server
+02/20/2018 04:11:21 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 04:11:22 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/20/2018 04:11:22 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 04:11:23 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 04:11:23 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/20/2018 04:11:23 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/20/2018 04:11:23 PM - ControllerPages - add_Single_Controller - 117 - INFO: Enter controller name
+02/20/2018 04:11:23 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/20/2018 04:11:23 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/20/2018 04:11:23 PM - ControllerPages - add_Single_Controller - 119 - INFO: select protocol
+02/20/2018 04:11:23 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 04:11:24 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/20/2018 04:11:24 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/20/2018 04:11:24 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/20/2018 04:11:24 PM - ControllerPages - add_Single_Controller - 121 - INFO: enter port number
+02/20/2018 04:11:24 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/20/2018 04:11:25 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/20/2018 04:11:25 PM - ControllerPages - add_Single_Controller - 123 - INFO: enter IP address / network address
+02/20/2018 04:11:25 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/20/2018 04:11:25 PM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/20/2018 04:11:25 PM - ControllerPages - add_Single_Controller - 125 - INFO: enter net mask bit
+02/20/2018 04:11:25 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/20/2018 04:11:25 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/20/2018 04:11:25 PM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/20/2018 04:11:26 PM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/20/2018 04:11:26 PM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/20/2018 04:11:27 PM - ControllerPages - add_Single_Controller - 127 - INFO: click on save button to save data
+02/20/2018 04:11:27 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/20/2018 04:11:27 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/20/2018 04:11:27 PM - ControllerPages - add_Single_Controller - 129 - INFO: close Add window
+02/20/2018 04:11:27 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/20/2018 04:11:27 PM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/20/2018 04:11:27 PM - ControllerPages - add_Single_Controller - 131 - INFO: refresh controller page
+02/20/2018 04:11:32 PM - ControllerPages - add_Single_Controller - 133 - INFO: reload page and wait up to 30 second 
+02/20/2018 04:11:32 PM - ControllerPages - add_Single_Controller - 135 - INFO: 
+02/20/2018 04:11:32 PM - ControllerTests - test_t1AddController - 41 - INFO: controller add process complete now verify newly added controller
+02/20/2018 04:11:32 PM - ControllerPages - verifyAddController - 76 - INFO: .//a[contains(text(),'test')]
+02/20/2018 04:11:32 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/20/2018 04:11:32 PM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/20/2018 04:11:32 PM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/20/2018 04:11:32 PM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/22/2018 11:50:13 AM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/22/2018 11:50:13 AM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/22/2018 11:50:13 AM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/22/2018 11:50:13 AM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/22/2018 11:50:18 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/22/2018 11:50:18 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 11:50:18 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/22/2018 11:50:18 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/22/2018 11:50:18 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/22/2018 11:50:18 AM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/22/2018 11:50:18 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 11:50:19 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/22/2018 11:50:19 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 11:50:20 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/22/2018 11:50:20 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 11:50:20 AM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/22/2018 11:50:20 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/22/2018 11:50:20 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/22/2018 11:50:20 AM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/22/2018 11:50:20 AM - ControllerPages - close_Whatfix_Windows - 102 - INFO: waiting for the element
+02/22/2018 11:51:00 AM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/22/2018 11:51:00 AM - ControllerPages - switch_to - 299 - INFO: switch to i frame
+02/22/2018 11:51:00 AM - ControllerPages - close_Whatfix_Windows - 105 - INFO: switching frame now
+02/22/2018 11:51:30 AM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/22/2018 11:51:30 AM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/22/2018 11:51:30 AM - ControllerTests - test_close_whatfix_window - 28 - INFO: close_whatfix_window
+02/22/2018 11:51:30 AM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/22/2018 11:51:30 AM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/22/2018 11:51:30 AM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/22/2018 11:51:30 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/22/2018 11:51:31 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/22/2018 11:51:31 AM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/22/2018 11:51:31 AM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/22/2018 11:51:31 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/22/2018 11:51:34 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/22/2018 11:51:34 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/22/2018 11:51:34 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/22/2018 11:51:35 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/22/2018 11:51:35 AM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/22/2018 11:51:35 AM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is True
+02/22/2018 11:51:35 AM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/22/2018 11:51:35 AM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/22/2018 11:51:35 AM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/22/2018 11:51:37 AM - ControllerPages - add_Single_Controller - 124 - INFO: clear all data field
+02/22/2018 11:51:37 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/22/2018 11:51:37 AM - ControllerPages - add_Single_Controller - 126 - INFO: select cloud server
+02/22/2018 11:51:37 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@class='selectize-input'] and  locatorType: xpath
+02/22/2018 11:51:37 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@class='selectize-input'] locatorType: xpath
+02/22/2018 11:51:37 AM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/22/2018 11:51:38 AM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/22/2018 11:51:38 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: demoisc1
+02/22/2018 11:51:38 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: isademo
+02/22/2018 11:51:38 AM - ControllerPages - add_Single_Controller - 128 - INFO: Enter controller name
+02/22/2018 11:51:38 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='vpn_name'] and  locatorType: xpath
+02/22/2018 11:51:39 AM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='vpn_name'] locatorType: xpath
+02/22/2018 11:51:39 AM - ControllerPages - add_Single_Controller - 130 - INFO: select protocol
+02/22/2018 11:51:39 AM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/22/2018 11:51:40 AM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//*[@id='protocol']/option and locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: Select Protocol
+02/22/2018 11:51:40 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: TCP
+02/22/2018 11:51:40 AM - ControllerPages - add_Single_Controller - 132 - INFO: enter port number
+02/22/2018 11:51:40 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='port'] and  locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='port'] locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - add_Single_Controller - 134 - INFO: enter IP address / network address
+02/22/2018 11:51:40 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//*[@id='network'] and  locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - sendKeys - 121 - INFO: Sent data on element with locator: .//*[@id='network'] locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - add_Single_Controller - 136 - INFO: enter net mask bit
+02/22/2018 11:51:40 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] and  locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//div[@name='netmask_bits']/descendant::div[@class='selectize-input'] locatorType: xpath
+02/22/2018 11:51:40 AM - ControllerPages - singleSelect_set_selections - 260 - INFO: run single drop down element
+02/22/2018 11:51:41 AM - ControllerPages - getElementList - 89 - INFO: Element list found with locator: .//div[@role='option'] and locatorType: xpath
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 16
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 17
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 18
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 19
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 20
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 21
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 22
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 23
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 24
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 25
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 26
+02/22/2018 11:51:42 AM - ControllerPages - singleSelect_set_selections - 266 - INFO: 27
+02/22/2018 11:51:42 AM - ControllerPages - add_Single_Controller - 138 - INFO: click on save button to save data
+02/22/2018 11:51:42 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] and  locatorType: xpath
+02/22/2018 11:51:43 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='theme-sm-btn theme-purple-btn btn-save'] locatorType: Xpath
+02/22/2018 11:51:43 AM - ControllerPages - add_Single_Controller - 140 - INFO: close Add window
+02/22/2018 11:51:43 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[@class='close_slide ion-android-close'] and  locatorType: xpath
+02/22/2018 11:51:43 AM - ControllerPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[@class='close_slide ion-android-close'] locatorType: Xpath
+02/22/2018 11:51:43 AM - ControllerPages - add_Single_Controller - 142 - INFO: refresh controller page
+02/22/2018 11:51:51 AM - ControllerPages - add_Single_Controller - 144 - INFO: reload page and wait up to 30 second 
+02/22/2018 11:51:51 AM - ControllerPages - add_Single_Controller - 146 - INFO: 
+02/22/2018 11:51:51 AM - ControllerTests - test_t1AddController - 41 - INFO: controller add process complete now verify newly added controller
+02/22/2018 11:51:51 AM - ControllerPages - verifyAddController - 76 - INFO: new Xpath of controller :- .//a[contains(text(),'test')]
+02/22/2018 11:51:51 AM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+02/22/2018 11:51:51 AM - ControllerPages - waitForElement - 229 - INFO: Element appeared on the web page
+02/22/2018 11:51:51 AM - ControllerPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+02/22/2018 11:51:51 AM - ControllerPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+02/22/2018 05:52:35 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/22/2018 05:52:35 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/22/2018 05:52:35 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/22/2018 05:52:35 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/22/2018 05:52:41 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/22/2018 05:52:42 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/22/2018 05:52:43 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/22/2018 05:52:43 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/22/2018 05:52:43 PM - ControllerPages - close_Whatfix_Windows - 102 - INFO: waiting for the element
+02/22/2018 06:31:12 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - switch_to - 301 - INFO: fail to switch new frame
+02/22/2018 06:31:12 PM - ControllerPages - close_Whatfix_Windows - 105 - INFO: switching frame now
+02/22/2018 06:31:12 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
+02/22/2018 06:31:12 PM - ControllerTests - test_open_add_window - 32 - INFO: test_open_add_window
+02/22/2018 06:31:12 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/22/2018 06:31:12 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/22/2018 06:31:12 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
+02/22/2018 06:31:12 PM - ControllerPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/22/2018 06:31:12 PM - ControllerPages - waitForElement - 231 - INFO: Element not appeared on the web page
+02/22/2018 06:31:12 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
+02/22/2018 06:31:12 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[contains(text(),'Add')] locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
+02/22/2018 06:31:12 PM - ControllerPages - isElementPresent - 172 - INFO: Element not present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
+02/22/2018 06:31:12 PM - ControllerPages - verifyAddWindow - 46 - INFO: Add window appear status is False
+02/22/2018 06:31:12 PM - ControllerTests - test_t1AddController - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/22/2018 06:31:12 PM - ControllerTests - test_t1AddController - 38 - INFO: test_t1Addcontroller start
+02/22/2018 06:31:12 PM - ControllerTests - test_t1AddController - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+02/22/2018 06:31:14 PM - ControllerPages - add_Single_Controller - 124 - INFO: clear all data field
+02/22/2018 06:31:14 PM - ControllerPages - getElement - 75 - INFO: Element not found with locator: .//*[@id='port'] and  locatorType: xpath
+02/25/2018 09:41:33 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+02/25/2018 09:41:33 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+02/25/2018 09:41:33 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+02/25/2018 09:41:33 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+02/25/2018 09:41:36 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/25/2018 09:41:37 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/25/2018 09:41:38 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/25/2018 09:41:38 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+02/25/2018 09:41:38 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+02/25/2018 09:41:38 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@class='btn theme-purple-btn'] and  locatorType: xpath
+02/25/2018 09:41:38 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@class='btn theme-purple-btn'] locatorType: xpath
+02/25/2018 09:41:38 PM - ControllerTests - test_close_whatfix_window - 26 - INFO: try to close whatfix_window
+02/25/2018 09:41:38 PM - ControllerPages - close_Whatfix_Windows - 102 - INFO: waiting for the element

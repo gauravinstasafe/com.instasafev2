@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.instasafev2/usource/controllername.csv&apos; to &apos;controllerlist.csv&apos;" description="Rename resource &apos;controllername.csv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="usource/controllername.csv" name="controllerlist.csv" stamp="1511810727129" updateReferences="true"/>
+</session>
