@@ -1,0 +1,15 @@
+cloudServer,name,protocal,port,internalNetwork,netmaskBits
+isademo,controller1,UDP,1270,10.12.70.0,16
+localhost,controller2,TCP,1271,10.12.71.0,17
+testing,controller3,UDP,1272,10.12.72.0,18
+isademo,controller4,TCP,1273,10.12.73.0,19
+localhost,controller5,UDP,1274,10.12.74.0,20
+testing,controller6,TCP,1275,10.12.75.0,21
+isademo,controller7,UDP,1276,10.12.76.0,22
+localhost,controller8,TCP,1277,10.12.77.0,23
+testing,controller9,UDP,1278,10.12.78.0,24
+isademo,controller10,TCP,1279,10.12.79.0,25
+localhost,controller11,UDP,1280,10.12.80.0,26
+testing,controller12,TCP,1281,10.12.81.0,27
+isademo,controller13,UDP,1282,10.12.82.0,28
+localhost,controller14,TCP,1283,10.12.83.0,24

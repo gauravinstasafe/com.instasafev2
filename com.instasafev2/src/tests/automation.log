@@ -1,0 +1,651 @@
+06/20/2018 01:22:50 AM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/20/2018 01:22:50 AM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/20/2018 01:22:50 AM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/20/2018 01:22:50 AM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/20/2018 01:22:50 AM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/20/2018 01:22:56 AM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/20/2018 01:22:56 AM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/20/2018 01:22:56 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/20/2018 01:22:56 AM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/20/2018 01:22:56 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/20/2018 01:22:56 AM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/20/2018 01:22:56 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/20/2018 01:22:56 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/20/2018 01:22:56 AM - LoginPage - login - 44 - INFO: click on username field
+06/20/2018 01:22:56 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - login - 46 - INFO: username enter successfully
+06/20/2018 01:22:57 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - login - 48 - INFO: click on Password field
+06/20/2018 01:22:57 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - login - 50 - INFO: password enter successfully
+06/20/2018 01:22:57 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/20/2018 01:22:57 AM - LoginPage - login - 52 - INFO: click on login button successfully
+06/20/2018 01:24:10 AM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/20/2018 01:24:10 AM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/20/2018 01:24:10 AM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/20/2018 01:24:10 AM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/20/2018 01:24:10 AM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/20/2018 01:24:15 AM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/20/2018 01:24:15 AM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/20/2018 01:24:15 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/20/2018 01:24:15 AM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/20/2018 01:24:15 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/20/2018 01:24:15 AM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/20/2018 01:24:15 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/20/2018 01:24:15 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/20/2018 01:24:15 AM - LoginPage - login - 44 - INFO: click on username field
+06/20/2018 01:24:15 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/20/2018 01:24:15 AM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/20/2018 01:24:15 AM - LoginPage - login - 46 - INFO: username enter successfully
+06/20/2018 01:24:15 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/20/2018 01:24:16 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/20/2018 01:24:16 AM - LoginPage - login - 48 - INFO: click on Password field
+06/20/2018 01:24:16 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/20/2018 01:24:16 AM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/20/2018 01:24:16 AM - LoginPage - login - 50 - INFO: password enter successfully
+06/20/2018 01:24:16 AM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/20/2018 01:24:16 AM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/20/2018 01:24:16 AM - LoginPage - login - 52 - INFO: click on login button successfully
+06/20/2018 01:25:22 AM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/20/2018 01:25:22 AM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/20/2018 01:25:22 AM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/20/2018 01:25:22 AM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/20/2018 01:25:22 AM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 04:44:29 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 04:44:29 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 04:44:29 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 04:44:29 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 04:44:29 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 04:44:39 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:44:39 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:44:39 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:44:39 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 04:44:39 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:44:39 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 04:44:39 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 04:44:40 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 04:44:40 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 04:44:40 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 04:44:40 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 04:44:40 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 04:44:40 PM - Test_ControllerTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:44:40 PM - Test_ControllerTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 04:44:40 PM - Test_ControllerTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:44:40 PM - Test_ControllerTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 04:44:42 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:44:43 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:44:43 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:44:54 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:44:54 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 04:44:54 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 04:44:54 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:44:54 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:44:54 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 04:44:54 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 04:44:54 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:44:54 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:44:54 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 04:44:54 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 04:44:54 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 04:44:54 PM - Test_ControllerTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:44:54 PM - Test_ControllerTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 04:44:54 PM - Test_ControllerTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:44:54 PM - Test_ControllerTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 04:44:56 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:44:56 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:44:56 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:44:56 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:44:56 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:44:56 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:44:56 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 04:44:57 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 04:44:57 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Gateway')] and  locatorType: xpath
+06/28/2018 04:44:57 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'Gateway')] locatorType: Xpath
+06/28/2018 04:44:57 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is True
+06/28/2018 04:44:57 PM - Test_ControllerTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 04:46:23 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 04:46:23 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 04:46:23 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 04:46:23 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 04:46:23 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 04:46:32 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:46:33 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:46:33 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 04:46:33 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 04:46:34 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 04:46:34 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 04:46:34 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:46:34 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 04:46:34 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:46:34 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 04:46:36 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:46:43 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:46:43 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:46:54 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:46:54 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 04:46:54 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 04:46:54 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:46:54 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:46:54 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 04:46:54 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 04:46:54 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:46:54 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:46:54 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 04:46:54 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 04:46:54 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 04:46:54 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:46:54 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 04:46:54 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:46:54 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 04:46:56 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:46:56 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:46:56 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:46:57 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:46:57 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:46:57 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:46:57 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 04:46:57 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 04:46:57 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Gateway')] and  locatorType: xpath
+06/28/2018 04:46:57 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'Gateway')] locatorType: Xpath
+06/28/2018 04:46:57 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is True
+06/28/2018 04:46:57 PM - Test_GatewayTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 04:50:14 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 04:50:14 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 04:50:14 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 04:50:14 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 04:50:14 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 04:50:19 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:50:19 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:50:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 04:50:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 04:50:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 04:50:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 04:50:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:50:19 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 04:50:20 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:50:20 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:50:20 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 04:50:20 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 04:50:20 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 04:50:20 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 04:50:20 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:50:20 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 04:50:20 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:50:20 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 04:50:22 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:50:25 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:50:25 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:50:56 PM - GatewayPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:50:56 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 04:50:56 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 04:50:56 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:50:56 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:50:56 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 04:50:56 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 04:50:56 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:50:56 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:50:56 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 04:50:56 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 04:50:56 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 04:50:56 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:50:56 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 04:50:56 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:50:56 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 04:50:58 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:50:58 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:50:58 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:50:58 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:50:58 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:50:58 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:50:58 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 04:50:59 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 04:50:59 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Gateway')] and  locatorType: xpath
+06/28/2018 04:50:59 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'Gateway')] locatorType: Xpath
+06/28/2018 04:50:59 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is True
+06/28/2018 04:50:59 PM - Test_GatewayTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 04:51:00 PM - GatewayPages - add_Single_Gateway - 146 - INFO: clear all data field
+06/28/2018 04:51:00 PM - GatewayPages - add_Single_Gateway - 148 - INFO: Enter gateway name
+06/28/2018 04:56:14 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 04:56:14 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 04:56:14 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 04:56:14 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 04:56:14 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 04:56:19 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:56:19 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:56:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:56:19 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 04:56:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:56:19 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 04:56:19 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:56:20 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:56:20 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 04:56:20 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 04:56:20 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 04:56:20 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 04:56:20 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:56:21 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:56:21 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 04:56:21 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 04:56:21 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 04:56:21 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 04:56:21 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 04:56:21 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 04:56:21 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 04:56:21 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:56:21 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 04:56:21 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:56:21 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 04:56:23 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:56:25 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:56:25 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:56:32 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:56:32 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 04:56:32 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 04:56:32 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:56:32 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:56:32 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 04:56:32 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 04:56:32 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:56:32 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:56:32 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 04:56:32 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 04:56:32 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 04:56:32 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:56:32 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 04:56:32 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 04:56:32 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 04:56:34 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:56:34 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:56:34 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 04:56:34 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 04:56:34 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 04:56:34 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 04:56:34 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 04:56:35 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 04:56:35 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'Gateway')] and  locatorType: xpath
+06/28/2018 04:56:35 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'Gateway')] locatorType: Xpath
+06/28/2018 04:56:35 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is True
+06/28/2018 04:56:35 PM - Test_GatewayTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 04:56:36 PM - GatewayPages - add_Single_Gateway - 146 - INFO: clear all data field
+06/28/2018 04:56:36 PM - GatewayPages - add_Single_Gateway - 148 - INFO: Enter gateway name
+06/28/2018 04:56:46 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='name'] and  locatorType: xpath
+06/28/2018 04:56:46 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='name'] locatorType: xpath
+06/28/2018 04:56:46 PM - GatewayPages - add_Single_Gateway - 150 - INFO: gateway name entered successfully
+06/28/2018 04:56:56 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='location'] and  locatorType: xpath
+06/28/2018 04:56:56 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='location'] locatorType: xpath
+06/28/2018 04:56:56 PM - GatewayPages - add_Single_Gateway - 152 - INFO: gateway location entered successfully
+06/28/2018 04:57:06 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='backup_name'] and  locatorType: xpath
+06/28/2018 04:57:06 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='backup_name'] locatorType: xpath
+06/28/2018 04:57:06 PM - GatewayPages - add_Single_Gateway - 154 - INFO: Backup Gateway Name entered successfully
+06/28/2018 04:57:16 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='bandwidth_limit'] and  locatorType: xpath
+06/28/2018 04:57:16 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='bandwidth_limit'] locatorType: xpath
+06/28/2018 04:57:16 PM - GatewayPages - add_Single_Gateway - 156 - INFO: Band width entered successfully
+06/28/2018 04:57:26 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] and  locatorType: xpath
+06/28/2018 04:57:26 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] locatorType: xpath
+06/28/2018 04:57:26 PM - GatewayPages - add_Single_Gateway - 158 - INFO: Protected Network Address entered successfully
+06/28/2018 04:57:36 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 04:57:36 PM - GatewayPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@type='submit'] locatorType: Xpath
+06/28/2018 04:57:36 PM - GatewayPages - add_Single_Gateway - 160 - INFO: Save button clicked successfully
+06/28/2018 04:57:36 PM - GatewayPages - add_Single_Gateway - 164 - INFO: reload page and wait up to 30 second 
+06/28/2018 04:57:36 PM - GatewayPages - add_Single_Gateway - 166 - INFO: 
+06/28/2018 04:57:36 PM - Test_GatewayTests - test_t1AddGateway - 30 - INFO: controller add process complete now verify newly added controller
+06/28/2018 04:57:36 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'Gateway1')]
+06/28/2018 04:57:36 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 04:58:09 PM - GatewayPages - waitForElement - 231 - INFO: Element not appeared on the web page
+06/28/2018 04:58:16 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'Gateway1')] and  locatorType: xpath
+06/28/2018 04:58:16 PM - GatewayPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'Gateway1')] locatorType: Xpath
+06/28/2018 05:45:18 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 05:45:18 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 05:45:18 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 05:45:18 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 05:45:18 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 05:45:24 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:45:24 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:45:24 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:45:24 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 05:45:24 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:45:24 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 05:45:24 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:45:24 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 05:45:24 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 05:45:24 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:45:24 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 05:45:24 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 05:45:24 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:45:25 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 05:45:25 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 05:45:25 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:45:25 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 05:45:25 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 05:45:25 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 05:45:25 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 05:45:25 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 05:45:25 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:45:25 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 05:45:25 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:45:25 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 05:45:27 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:45:28 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:45:28 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 05:45:35 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 05:45:35 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:45:35 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 05:45:35 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:45:35 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 05:45:37 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:45:37 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:45:37 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 05:45:37 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 05:54:42 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 05:54:42 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 05:54:42 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 05:54:42 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 05:54:42 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 05:54:52 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:54:52 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:54:52 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:54:52 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 05:54:52 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:54:52 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 05:54:52 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:54:52 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 05:54:52 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 05:54:52 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:54:52 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 05:54:52 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 05:54:52 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:54:53 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 05:54:53 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 05:54:53 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:54:53 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 05:54:53 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 05:54:53 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 05:54:53 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 05:54:53 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 05:54:53 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:54:53 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 05:54:53 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:54:53 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 05:54:55 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:54:56 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:54:56 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 05:55:03 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 05:55:03 PM - Util - verifyTextContains - 81 - INFO: Actual Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 05:55:03 PM - Util - verifyTextContains - 82 - INFO: Expected Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 05:55:03 PM - Util - verifyTextContains - 84 - INFO: ### VERIFICATION CONTAINS !!!
+06/28/2018 05:55:03 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 05:55:03 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 05:55:03 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 05:55:03 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:55:03 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 05:55:03 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 05:55:03 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 05:55:03 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:55:03 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 05:55:03 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 05:55:03 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 05:55:03 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:55:03 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 05:55:03 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:55:03 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 05:55:05 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:55:05 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:55:05 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 05:55:06 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 05:55:06 PM - Util - verifyTextContains - 81 - INFO: Actual Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 05:55:06 PM - Util - verifyTextContains - 82 - INFO: Expected Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 05:55:06 PM - Util - verifyTextContains - 84 - INFO: ### VERIFICATION CONTAINS !!!
+06/28/2018 05:55:06 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:55:06 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:55:06 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 05:55:06 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 05:55:16 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//h2[contains(text(),'Add new gateway details to setup')] and  locatorType: xpath
+06/28/2018 05:55:16 PM - GatewayPages - isElementPresent - 172 - INFO: Element not present with locator: .//h2[contains(text(),'Add new gateway details to setup')] locatorType: Xpath
+06/28/2018 05:55:16 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is False
+06/28/2018 05:55:16 PM - Test_GatewayTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 05:55:21 PM - GatewayPages - add_Single_Gateway - 146 - INFO: clear all data field
+06/28/2018 05:55:21 PM - GatewayPages - add_Single_Gateway - 148 - INFO: Enter gateway name
+06/28/2018 05:55:31 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='name'] and  locatorType: xpath
+06/28/2018 05:55:31 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='name'] locatorType: xpath
+06/28/2018 05:55:31 PM - GatewayPages - add_Single_Gateway - 150 - INFO: gateway name entered successfully
+06/28/2018 05:55:41 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='location'] and  locatorType: xpath
+06/28/2018 05:55:41 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='location'] locatorType: xpath
+06/28/2018 05:55:41 PM - GatewayPages - add_Single_Gateway - 152 - INFO: gateway location entered successfully
+06/28/2018 05:55:51 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='backup_name'] and  locatorType: xpath
+06/28/2018 05:55:51 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='backup_name'] locatorType: xpath
+06/28/2018 05:55:51 PM - GatewayPages - add_Single_Gateway - 154 - INFO: Backup Gateway Name entered successfully
+06/28/2018 05:55:54 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//input[@name='bandwidth_limit'] and  locatorType: xpath
+06/28/2018 05:55:54 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//input[@name='bandwidth_limit'] locatorType: xpath
+06/28/2018 05:55:54 PM - GatewayPages - add_Single_Gateway - 156 - INFO: Band width entered successfully
+06/28/2018 05:55:54 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] and  locatorType: xpath
+06/28/2018 05:55:54 PM - GatewayPages - sendKeys - 124 - INFO: Cannot send data on the element with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] locatorType: xpath
+06/28/2018 05:55:54 PM - GatewayPages - add_Single_Gateway - 158 - INFO: Protected Network Address entered successfully
+06/28/2018 05:55:54 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 05:55:54 PM - GatewayPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//button[@type='submit'] locatorType: Xpath
+06/28/2018 05:55:54 PM - GatewayPages - add_Single_Gateway - 160 - INFO: Save button clicked successfully
+06/28/2018 05:55:54 PM - GatewayPages - add_Single_Gateway - 164 - INFO: reload page and wait up to 30 second 
+06/28/2018 05:59:00 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 05:59:00 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 05:59:00 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 05:59:00 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 05:59:00 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 05:59:07 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:59:07 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:59:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:59:07 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 05:59:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:59:07 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 05:59:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:59:07 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 05:59:07 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 05:59:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 05:59:07 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 05:59:07 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 05:59:07 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:59:08 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 05:59:08 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 05:59:08 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 05:59:08 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 05:59:08 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 05:59:08 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 05:59:08 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 05:59:08 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 05:59:08 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:59:08 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 05:59:08 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 05:59:08 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 05:59:10 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 05:59:11 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:59:11 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 05:59:18 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 05:59:18 PM - Util - verifyTextContains - 81 - INFO: Actual Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 05:59:18 PM - Util - verifyTextContains - 82 - INFO: Expected Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 05:59:18 PM - Util - verifyTextContains - 84 - INFO: ### VERIFICATION CONTAINS !!!
+06/28/2018 05:59:18 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 05:59:18 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 05:59:18 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 05:59:18 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 05:59:18 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 05:59:18 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 05:59:18 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 05:59:51 PM - GatewayPages - waitForElement - 231 - INFO: Element not appeared on the web page
+06/28/2018 06:00:01 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 06:00:01 PM - GatewayPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 06:00:01 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 06:00:01 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 06:00:01 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 06:00:01 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 06:00:01 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 06:00:03 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 06:00:03 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:00:03 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 06:00:03 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 06:00:03 PM - Util - verifyTextContains - 81 - INFO: Actual Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 06:00:03 PM - Util - verifyTextContains - 82 - INFO: Expected Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 06:00:03 PM - Util - verifyTextContains - 84 - INFO: ### VERIFICATION CONTAINS !!!
+06/28/2018 06:00:03 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 06:00:03 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:00:03 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 06:00:04 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 06:00:14 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//h2[contains(text(),'Add new gateway details to setup')] and  locatorType: xpath
+06/28/2018 06:00:14 PM - GatewayPages - isElementPresent - 172 - INFO: Element not present with locator: .//h2[contains(text(),'Add new gateway details to setup')] locatorType: Xpath
+06/28/2018 06:00:14 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is False
+06/28/2018 06:00:14 PM - Test_GatewayTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 146 - INFO: clear all data field
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 148 - INFO: Enter gateway name
+06/28/2018 06:00:19 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='name'] and  locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='name'] locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 150 - INFO: gateway name entered successfully
+06/28/2018 06:00:19 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='location'] and  locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='location'] locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 152 - INFO: gateway location entered successfully
+06/28/2018 06:00:19 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='backup_name'] and  locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='backup_name'] locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 154 - INFO: Backup Gateway Name entered successfully
+06/28/2018 06:00:19 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='bandwidth_limit'] and  locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='bandwidth_limit'] locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 156 - INFO: Band width entered successfully
+06/28/2018 06:00:19 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] and  locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] locatorType: xpath
+06/28/2018 06:00:19 PM - GatewayPages - add_Single_Gateway - 158 - INFO: Protected Network Address entered successfully
+06/28/2018 06:00:19 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 06:00:20 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: Xpath
+06/28/2018 06:00:20 PM - GatewayPages - add_Single_Gateway - 160 - INFO: Save button clicked successfully
+06/28/2018 06:00:20 PM - GatewayPages - add_Single_Gateway - 164 - INFO: reload page and wait up to 30 second 
+06/28/2018 06:00:20 PM - GatewayPages - add_Single_Gateway - 166 - INFO: 
+06/28/2018 06:00:20 PM - Test_GatewayTests - test_t1AddGateway - 30 - INFO: controller add process complete now verify newly added controller
+06/28/2018 06:00:20 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'Gateway1')]
+06/28/2018 06:00:20 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 06:00:53 PM - GatewayPages - waitForElement - 231 - INFO: Element not appeared on the web page
+06/28/2018 06:01:03 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'Gateway1')] and  locatorType: xpath
+06/28/2018 06:01:03 PM - GatewayPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'Gateway1')] locatorType: Xpath
+06/28/2018 06:09:17 PM - WebDriverFactory - get_firefox - 50 - INFO: 
+06/28/2018 06:09:17 PM - WebDriverFactory - getWebDriverInstance - 36 - INFO: firefoxbrowser  open
+06/28/2018 06:09:17 PM - WebDriverFactory - getWebDriverInstance - 38 - INFO: All cookies clear
+06/28/2018 06:09:17 PM - WebDriverFactory - getWebDriverInstance - 40 - INFO: wait for 10 seconds
+06/28/2018 06:09:17 PM - WebDriverFactory - getWebDriverInstance - 42 - INFO: maximize browser window
+06/28/2018 06:09:21 PM - LoginPage - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 06:09:22 PM - LoginPage - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - clearFields - 117 - INFO: Username field successfully clear
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - clearFields - 119 - INFO: Password field successfully clear
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - login - 44 - INFO: click on username field
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Username'] and  locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Username'] locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - login - 46 - INFO: username enter successfully
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - login - 48 - INFO: click on Password field
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//input[@placeholder='Password'] and  locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@placeholder='Password'] locatorType: xpath
+06/28/2018 06:09:22 PM - LoginPage - login - 50 - INFO: password enter successfully
+06/28/2018 06:09:22 PM - LoginPage - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 06:09:23 PM - LoginPage - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: xpath
+06/28/2018 06:09:23 PM - LoginPage - login - 52 - INFO: click on login button successfully
+06/28/2018 06:09:23 PM - Test_GatewayTests - test_delete_gateway - 37 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 06:09:23 PM - Test_GatewayTests - test_delete_gateway - 38 - INFO: test_delete_controller
+06/28/2018 06:09:23 PM - Test_GatewayTests - test_delete_gateway - 39 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 06:09:23 PM - Test_GatewayTests - test_delete_gateway - 40 - INFO: navigate to controller page
+06/28/2018 06:09:25 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 06:09:26 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:09:26 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 06:09:33 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 06:09:33 PM - Util - verifyTextContains - 81 - INFO: Actual Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 06:09:33 PM - Util - verifyTextContains - 82 - INFO: Expected Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 06:09:33 PM - Util - verifyTextContains - 84 - INFO: ### VERIFICATION CONTAINS !!!
+06/28/2018 06:09:33 PM - GatewayPages - update_xpath - 106 - INFO: Updated Xpath is as follow .//a[contains(text(),'gateway')]
+06/28/2018 06:09:33 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'test')]
+06/28/2018 06:09:33 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 06:09:33 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:09:33 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//a[contains(text(),'test')] and  locatorType: xpath
+06/28/2018 06:09:33 PM - GatewayPages - isElementPresent - 168 - INFO: Element present with locator: .//a[contains(text(),'test')] locatorType: Xpath
+06/28/2018 06:09:33 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 06:10:06 PM - GatewayPages - waitForElement - 231 - INFO: Element not appeared on the web page
+06/28/2018 06:10:16 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'gateway')] and  locatorType: xpath
+06/28/2018 06:10:16 PM - GatewayPages - elementClick - 108 - INFO: Cannot click on the element with locator: .//a[contains(text(),'gateway')] locatorType: Xpath
+06/28/2018 06:10:16 PM - GatewayPages - select_check_box - 113 - INFO: testrelated check box selected successfully
+06/28/2018 06:10:16 PM - Test_GatewayTests - test_t1AddGateway - 23 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 06:10:16 PM - Test_GatewayTests - test_t1AddGateway - 24 - INFO: test_t1 Add Gateway start
+06/28/2018 06:10:16 PM - Test_GatewayTests - test_t1AddGateway - 25 - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+06/28/2018 06:10:16 PM - Test_GatewayTests - test_t1AddGateway - 26 - INFO: navigate to Gateway page
+06/28/2018 06:10:18 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 06:10:18 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:10:18 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//span[contains(text(),'Gateways')] and  locatorType: xpath
+06/28/2018 06:10:18 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//span[contains(text(),'Gateways')] locatorType: Xpath
+06/28/2018 06:10:18 PM - Util - verifyTextContains - 81 - INFO: Actual Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 06:10:18 PM - Util - verifyTextContains - 82 - INFO: Expected Text From Application Web UI --> :: Gateways - SafeHats | MyInstaSafe
+06/28/2018 06:10:18 PM - Util - verifyTextContains - 84 - INFO: ### VERIFICATION CONTAINS !!!
+06/28/2018 06:10:18 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+06/28/2018 06:10:18 PM - GatewayPages - waitForElement - 229 - INFO: Element appeared on the web page
+06/28/2018 06:10:18 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[contains(text(),'Add Gateway')] and  locatorType: xpath
+06/28/2018 06:10:19 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[contains(text(),'Add Gateway')] locatorType: xpath
+06/28/2018 06:10:34 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//h2[contains(text(),'Add new gateway details to setup')] and  locatorType: xpath
+06/28/2018 06:10:34 PM - GatewayPages - isElementPresent - 172 - INFO: Element not present with locator: .//h2[contains(text(),'Add new gateway details to setup')] locatorType: Xpath
+06/28/2018 06:10:34 PM - GatewayPages - verifyAddWindow - 61 - INFO: Add window appear status is False
+06/28/2018 06:10:34 PM - Test_GatewayTests - test_t1AddGateway - 28 - INFO: navigate to Gateway Add page
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 147 - INFO: clear all data field
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 149 - INFO: Enter gateway name
+06/28/2018 06:10:39 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='name'] and  locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='name'] locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 151 - INFO: gateway name entered successfully
+06/28/2018 06:10:39 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='location'] and  locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='location'] locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 153 - INFO: gateway location entered successfully
+06/28/2018 06:10:39 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='backup_name'] and  locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='backup_name'] locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 155 - INFO: Backup Gateway Name entered successfully
+06/28/2018 06:10:39 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//input[@name='bandwidth_limit'] and  locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//input[@name='bandwidth_limit'] locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 157 - INFO: Band width entered successfully
+06/28/2018 06:10:39 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] and  locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - sendKeys - 121 - INFO: Sent data on element with locator: .//div[1][@ng-repeat='net in Gateway.gateway.networks']//input[@name='value'] locatorType: xpath
+06/28/2018 06:10:39 PM - GatewayPages - add_Single_Gateway - 159 - INFO: Protected Network Address entered successfully
+06/28/2018 06:10:39 PM - GatewayPages - getElement - 72 - INFO: Element found with locator: .//button[@type='submit'] and  locatorType: xpath
+06/28/2018 06:10:40 PM - GatewayPages - elementClick - 105 - INFO: Clicked on element with locator: .//button[@type='submit'] locatorType: Xpath
+06/28/2018 06:10:40 PM - GatewayPages - add_Single_Gateway - 161 - INFO: Save button clicked successfully
+06/28/2018 06:10:40 PM - GatewayPages - add_Single_Gateway - 165 - INFO: reload page and wait up to 30 second 
+06/28/2018 06:10:40 PM - GatewayPages - add_Single_Gateway - 167 - INFO: 
+06/28/2018 06:10:40 PM - Test_GatewayTests - test_t1AddGateway - 30 - INFO: controller add process complete now verify newly added controller
+06/28/2018 06:10:40 PM - GatewayPages - verify_gateway_entry - 92 - INFO: new Xpath of gateway :- .//a[contains(text(),'Gateway1')]
+06/28/2018 06:10:40 PM - GatewayPages - waitForElement - 222 - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+06/28/2018 06:11:13 PM - GatewayPages - waitForElement - 231 - INFO: Element not appeared on the web page
+06/28/2018 06:11:23 PM - GatewayPages - getElement - 75 - INFO: Element not found with locator: .//a[contains(text(),'Gateway1')] and  locatorType: xpath
+06/28/2018 06:11:23 PM - GatewayPages - isElementPresent - 172 - INFO: Element not present with locator: .//a[contains(text(),'Gateway1')] locatorType: Xpath

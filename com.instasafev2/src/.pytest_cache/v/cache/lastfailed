@@ -1,0 +1,11 @@
+{
+  "tests/controller_tests.py::ControllerTests::test_delete_controller": true,
+  "tests/controller_tests.py::ControllerTests::test_t1AddController": true,
+  "tests/controller_tests.py::Test_ControllerTests::test_delete_controller": true,
+  "tests/controller_tests.py::Test_ControllerTests::test_t1AddController": true,
+  "tests/gateway_test.py::Test_GatewayTests::test_delete_gateway": true,
+  "tests/gateway_test.py::Test_GatewayTests::test_t1AddGateway": true,
+  "tests/login_tests.py::LoginTests::test_t1invalidLogin_1___invalid____gaurav____test__": true,
+  "tests/login_tests.py::LoginTests::test_t1invalidLogin_2___valid____richard____Richard_999__": true,
+  "tests/test11.py::Abc::test_q1": true
+}

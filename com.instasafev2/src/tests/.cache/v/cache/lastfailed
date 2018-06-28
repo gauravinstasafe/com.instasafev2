@@ -1,0 +1,18 @@
+{
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_10___isademo____controller10____TCP____1279____10_12_79_0____25__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_11___localhost____controller11____UDP____1280____10_12_80_0____26__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_12___testing____controller12____TCP____1281____10_12_81_0____27__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_13___isademo____controller13____UDP____1282____10_12_82_0____28__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_14___localhost____controller14____TCP____1283____10_12_83_0____24__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_1___isademo____controller1____UDP____1270____10_12_70_0____16__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_2___localhost____controller2____TCP____1271____10_12_71_0____17__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_3___testing____controller3____UDP____1272____10_12_72_0____18__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_4___isademo____controller4____TCP____1273____10_12_73_0____19__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_5___localhost____controller5____UDP____1274____10_12_74_0____20__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_6___testing____controller6____TCP____1275____10_12_75_0____21__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_7___isademo____controller7____UDP____1276____10_12_76_0____22__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_8___localhost____controller8____TCP____1277____10_12_77_0____23__": true,
+  "controller_tests.py::ControllerTests::test_AddMultipleControllers_9___testing____controller9____UDP____1278____10_12_78_0____24__": true,
+  "controller_tests.py::ControllerTests::test_t1AddController": true,
+  "login_tests.py::LoginTests::test_t2validLogin": true
+}

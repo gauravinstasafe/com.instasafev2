@@ -1,0 +1,14 @@
+{
+  "controller_tests.py::ControllerTests::test_close_whatfix_window": true,
+  "controller_tests.py::ControllerTests::test_delete_controller": true,
+  "controller_tests.py::ControllerTests::test_t1AddController": true,
+  "controller_tests.py::Test_ControllerTests": true,
+  "controller_tests.py::Test_ControllerTests::test_delete_controller": true,
+  "controller_tests.py::Test_ControllerTests::test_t1AddController": true,
+  "gateway_test.py::Test_ControllerTests::test_delete_gateway": true,
+  "gateway_test.py::Test_ControllerTests::test_t1AddGateway": true,
+  "gateway_test.py::Test_GatewayTests::test_delete_gateway": true,
+  "gateway_test.py::Test_GatewayTests::test_t1AddGateway": true,
+  "test11.py::Abc::test_q1": true,
+  "test11.py::Abc::test_q3": true
+}
