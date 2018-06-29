@@ -1,18 +1,39 @@
 -- VERSION_4
 -- START DISKCACHE_2
 C:\Users\user\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Testing\com.python.pydev.analysis\v2_indexcache
-readFile.ReadFile|1513673328585230000|C:\Users\user\workspace\Testing\src\readFile\ReadFile.py
+readFile.__pycache__.login|1519756918107035000|C:\Users\user\workspace\Testing\src\readFile\__pycache__\login.py
+login|1521375595368733000|C:\Users\user\workspace\Testing\src\login.py
+test2.__init__|1520832231749613000|C:\Users\user\workspace\Testing\src\test2\__init__.py
 readFile.__init__|1513598833709467000|C:\Users\user\workspace\Testing\src\readFile\__init__.py
+test2.test2|1521435699409983000|C:\Users\user\workspace\Testing\src\test2\test2.py
+reader.__init__|1520576256327158000|C:\Users\user\workspace\Testing\src\reader\__init__.py
+read_file|1520587576625988000|C:\Users\user\workspace\Testing\src\read_file.py
+reader.reader|1520599509271565000|C:\Users\user\workspace\Testing\src\reader\reader.py
 -- END DISKCACHE
 -- START DICTIONARY
-1
-1=readFile.ReadFile
+5
+2=test2.test2
+4=readFile.__pycache__.login
+5=login
+1=read_file
+3=reader.reader
 -- END DICTIONARY
 -- START TREE 1
-2
-fil|2|filea!11@file!11@
-tes|1|test!11@
+12
+a|1|a!11@
+dat|4|datareader!11@datafile!11@data!11@data!19@
+dri|1|driver!19@
+fil|4|files!19@files1!19@file!19@file!27@
+l|1|l!27@
+l1|1|l1!27@
+lin|1|line!19@
+lis|1|list!19@
+log|1|login!33@
+num|2|number!43@number!19@
+rea|2|read!27@reads!27@
+tex|2|texts!43@texts!19@
 -- END TREE
 -- START TREE 2
-0
+1
+ope|1|opendriver!5&34@
 -- END TREE

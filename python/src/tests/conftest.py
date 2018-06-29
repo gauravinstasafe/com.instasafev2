@@ -16,13 +16,23 @@ def oneTimeSetUp(request, browser):
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
     lp = LoginPage(driver)
-    lp.login("test@email.com", "abcabc")
-
-    if request.cls is not None:
-        request.cls.driver = driver
+    lp.login("richard", "Richard@111")
+    if request.cls is not None: 
+        request.cls.driver = driver 
     yield driver
     driver.quit()
     print("Running one time tearDown")
+    
+@pytest.yield_fixture(scope="session")
+def universalSetUp(browser):
+    print("Running universalSetUp")
+    wdf = WebDriverFactory(browser)
+    driver = wdf.getWebDriverInstance()
+    lp = LoginPage(driver)
+    lp.login("richard", "Richard@111")
+    yield driver
+    driver.quit()
+    print("Running universalSetUp")        
 
 def pytest_addoption(parser):
     parser.addoption("--browser")

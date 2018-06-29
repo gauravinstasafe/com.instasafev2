@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pydev-testrun version="1.0"?><pydev-testsuite>
-<summary errors="0" failures="0" finished="true" name="Test Run: 21" tests="17" total_time="null"/>
+<summary errors="2" failures="0" finished="true" name="Test Run: 29" tests="2" total_time="Finished in: 15.61 secs."/>
+<test location="C:\Users\user\workspace\python\src\tests\home\login_tests.py" status="error" test="LoginTests.test_t1invalidLogin" time="14.52">
+<stdout><![CDATA[Running one time setUp
+]]></stdout>
+<stderr><![CDATA[self = <tests.home.login_tests.LoginTests testMethod=test_t1invalidLogin>
+oneTimeSetUp = 'test1212'
+
+    @pytest.fixture(autouse=True)
+    def objectSetup(self, oneTimeSetUp):
+>       self.log.info(self.test)
+E       AttributeError: 'LoginTests' object has no attribute 'test'
+
+tests\home\login_tests.py:14: AttributeError]]></stderr>
+</test>
+<test location="C:\Users\user\workspace\python\src\tests\home\login_tests.py" status="error" test="LoginTests.test_t2validLogin" time="0.00">
+<stdout/>
+<stderr><![CDATA[self = <tests.home.login_tests.LoginTests testMethod=test_t2validLogin>
+oneTimeSetUp = 'test1212'
+
+    @pytest.fixture(autouse=True)
+    def objectSetup(self, oneTimeSetUp):
+>       self.log.info(self.test)
+E       AttributeError: 'LoginTests' object has no attribute 'test'
+
+tests\home\login_tests.py:14: AttributeError]]></stderr>
+</test>
 <launch mode="run">
 <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration local="true" path="com.instasafev2 controller_tests.py"/>
+<launchConfiguration local="true" path="python login_tests.py"/>
 ]]></launch_memento>
 </launch>
 </pydev-testsuite>

@@ -171,3 +171,11 @@
 05/31/2017 05:10:05 PM - LoginPage - INFO: Element present with locator: //div[@id='navbar']//li[@class='dropdown'] locatorType: xpath
 05/31/2017 05:10:05 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login Verification
 05/31/2017 05:10:05 PM - TestStatus - INFO: test_t2validLogin ### TEST SUCCESSFUL
+06/27/2018 03:01:04 PM - LoginPage - INFO: Element found with locator: Login and  locatorType: link
+06/27/2018 03:01:05 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+06/27/2018 03:01:06 PM - LoginPage - INFO: Element found with locator: user_email and  locatorType: id
+06/27/2018 03:01:06 PM - LoginPage - INFO: Element found with locator: user_password and  locatorType: id
+06/27/2018 03:02:38 PM - LoginPage - INFO: Element found with locator: Login and  locatorType: link
+06/27/2018 03:02:39 PM - LoginPage - INFO: Clicked on element with locator: Login locatorType: link
+06/27/2018 03:02:41 PM - LoginPage - INFO: Element found with locator: user_email and  locatorType: id
+06/27/2018 03:02:41 PM - LoginPage - INFO: Element found with locator: user_password and  locatorType: id

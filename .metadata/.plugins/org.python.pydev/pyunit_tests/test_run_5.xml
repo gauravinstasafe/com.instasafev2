@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pydev-testrun version="1.0"?><pydev-testsuite>
-<summary errors="0" failures="1" finished="true" name="Test Run: 22" tests="3" total_time="Finished in: 127.28 secs."/>
-<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="ok" test="ControllerTests.test_close_whatfix_window" time="40.17">
+<summary errors="0" failures="0" finished="true" name="Test Run: 30" tests="2" total_time="Finished in: 59.96 secs."/>
+<test location="C:\Users\user\workspace\python\src\tests\home\login_tests.py" status="ok" test="LoginTests.test_t1invalidLogin" time="34.74">
 <stdout><![CDATA[  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
     main()
   File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
@@ -68,20 +68,255 @@
     return self.run(*args, **kwds)
   File "C:\Python36-32\lib\unittest\case.py", line 605, in run
     testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 27, in test_close_whatfix_window
-    self.cp.close_Whatfix_Windows()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 97, in close_Whatfix_Windows
-    self.elementClick(locator=self._whatfix, locatorType="Xpath", element="whatfix")
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 109, in elementClick
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 56, in logout
+    self.nav.navigateToUserSettings()
+  File "C:\Users\user\workspace\python\src\pages\home\navigation_page.py", line 31, in navigateToUserSettings
+    locatorType="xpath", pollFrequency=1)
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 227, in waitForElement
     print_stack()
-controller_tests.py         26 INFO     try to close whatfix_window
-controller_Page.py          93 INFO     waiting for the element
-selenium_driver.py          72 INFO     Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
-selenium_driver.py         299 INFO     switch to i frame
-controller_Page.py          96 INFO     switching frame now
-selenium_driver.py          75 INFO     Element not found with locator: .//button[@class='WFSTAY'] and  locatorType: xpath
-selenium_driver.py         108 INFO     Cannot click on the element with locator: .//button[@class='WFSTAY'] locatorType: Xpath
-controller_tests.py         28 INFO     close_whatfix_window]]></stdout>
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
+    main()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
+    return pytest.main(argv)
+  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
+    self.result = func()
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
+    item.runtest()
+  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
+    self._testcase(result=self)
+  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 56, in logout
+    self.nav.navigateToUserSettings()
+  File "C:\Users\user\workspace\python\src\pages\home\navigation_page.py", line 34, in navigateToUserSettings
+    locatorType="xpath")
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 104, in elementClick
+    print_stack()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
+    main()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
+    return pytest.main(argv)
+  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
+    self.result = func()
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
+    item.runtest()
+  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
+    self._testcase(result=self)
+  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 58, in logout
+    locatorType="xpath", pollFrequency=1)
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 227, in waitForElement
+    print_stack()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
+    main()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
+    return pytest.main(argv)
+  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
+    self.result = func()
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
+    item.runtest()
+  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
+    self._testcase(result=self)
+  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 61, in logout
+    locatorType="xpath")
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 104, in elementClick
+    print_stack()
+login_tests.py              21 INFO     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+login_tests.py              22 INFO     test_t1invalidLogin started
+login_tests.py              23 INFO     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+selenium_driver.py         217 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
+selenium_driver.py         226 INFO     Element not appeared on the web page
+selenium_driver.py          70 INFO     Element not found with locator: //div[@id='navbar']//li[@class='dropdown'] and  locatorType: xpath
+selenium_driver.py         103 INFO     Cannot click on the element with locator: //div[@id='navbar']//li[@class='dropdown'] locatorType: xpath
+selenium_driver.py         217 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
+selenium_driver.py         226 INFO     Element not appeared on the web page
+selenium_driver.py          70 INFO     Element not found with locator: //div[@id='navbar']//a[@href='/sign_out'] and  locatorType: xpath
+selenium_driver.py         103 INFO     Cannot click on the element with locator: //div[@id='navbar']//a[@href='/sign_out'] locatorType: xpath
+selenium_driver.py          67 INFO     Element found with locator: Login and  locatorType: link
+selenium_driver.py         100 INFO     Clicked on element with locator: Login locatorType: link
+selenium_driver.py          67 INFO     Element found with locator: user_email and  locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: user_password and  locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: user_email and  locatorType: id
+selenium_driver.py         116 INFO     Sent data on element with locator: user_email locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: user_password and  locatorType: id
+selenium_driver.py         116 INFO     Sent data on element with locator: user_password locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: commit and  locatorType: name
+selenium_driver.py         100 INFO     Clicked on element with locator: commit locatorType: name
+selenium_driver.py          67 INFO     Element found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+selenium_driver.py         163 INFO     Element present with locator: //div[contains(text(),'Invalid email or password')] locatorType: xpath]]></stdout>
 <stderr><![CDATA[  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
     main()
   File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
@@ -148,537 +383,263 @@ controller_tests.py         28 INFO     close_whatfix_window]]></stdout>
     return self.run(*args, **kwds)
   File "C:\Python36-32\lib\unittest\case.py", line 605, in run
     testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 27, in test_close_whatfix_window
-    self.cp.close_Whatfix_Windows()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 97, in close_Whatfix_Windows
-    self.elementClick(locator=self._whatfix, locatorType="Xpath", element="whatfix")
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 109, in elementClick
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 56, in logout
+    self.nav.navigateToUserSettings()
+  File "C:\Users\user\workspace\python\src\pages\home\navigation_page.py", line 31, in navigateToUserSettings
+    locatorType="xpath", pollFrequency=1)
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 227, in waitForElement
+    print_stack()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
+    main()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
+    return pytest.main(argv)
+  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
+    self.result = func()
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
+    item.runtest()
+  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
+    self._testcase(result=self)
+  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 56, in logout
+    self.nav.navigateToUserSettings()
+  File "C:\Users\user\workspace\python\src\pages\home\navigation_page.py", line 34, in navigateToUserSettings
+    locatorType="xpath")
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 104, in elementClick
+    print_stack()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
+    main()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
+    return pytest.main(argv)
+  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
+    self.result = func()
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
+    item.runtest()
+  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
+    self._testcase(result=self)
+  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 58, in logout
+    locatorType="xpath", pollFrequency=1)
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 227, in waitForElement
+    print_stack()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
+    main()
+  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
+    return pytest.main(argv)
+  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
+    return config.hook.pytest_cmdline_main(config=config)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
+    self.result = func()
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
+    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
+    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
+    firstresult=hook.spec_opts.get('firstresult'),
+  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
+    item.runtest()
+  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
+    self._testcase(result=self)
+  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\user\workspace\python\src\tests\home\login_tests.py", line 24, in test_t1invalidLogin
+    self.lp.logout()
+  File "C:\Users\user\workspace\python\src\pages\home\login_page.py", line 61, in logout
+    locatorType="xpath")
+  File "C:\Users\user\workspace\python\src\base\selenium_driver.py", line 104, in elementClick
     print_stack()
 ]]></stderr>
 </test>
-<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="ok" test="ControllerTests.test_open_add_window" time="70.79">
-<stdout><![CDATA[  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
-    main()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
-    return pytest.main(argv)
-  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
-    return config.hook.pytest_cmdline_main(config=config)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
-    return wrap_session(config, _main)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
-    session.exitstatus = doit(config, session) or 0
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
-    config.hook.pytest_runtestloop(session=session)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
-    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
-    runtestprotocol(item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
-    reports.append(call_and_report(item, "call", log))
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
-    call = call_runtest_hook(item, when, **kwds)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
-    self.result = func()
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
-    item.runtest()
-  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
-    self._testcase(result=self)
-  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
-    testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 33, in test_open_add_window
-    self.cp.navigate_to_Controller_Add_window()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 108, in navigate_to_Controller_Add_window
-    self.navigateControllerPage()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 103, in navigateControllerPage
-    self.waitForElement(self._controller_menu, locatorType="Xpath", pollFrequency=1)
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 232, in waitForElement
-    print_stack()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
-    main()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
-    return pytest.main(argv)
-  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
-    return config.hook.pytest_cmdline_main(config=config)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
-    return wrap_session(config, _main)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
-    session.exitstatus = doit(config, session) or 0
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
-    config.hook.pytest_runtestloop(session=session)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
-    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
-    runtestprotocol(item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
-    reports.append(call_and_report(item, "call", log))
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
-    call = call_runtest_hook(item, when, **kwds)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
-    self.result = func()
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
-    item.runtest()
-  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
-    self._testcase(result=self)
-  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
-    testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 33, in test_open_add_window
-    self.cp.navigate_to_Controller_Add_window()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 108, in navigate_to_Controller_Add_window
-    self.navigateControllerPage()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 104, in navigateControllerPage
-    self.elementClick(self._controller_menu, locatorType="Xpath")
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 109, in elementClick
-    print_stack()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
-    main()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
-    return pytest.main(argv)
-  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
-    return config.hook.pytest_cmdline_main(config=config)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
-    return wrap_session(config, _main)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
-    session.exitstatus = doit(config, session) or 0
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
-    config.hook.pytest_runtestloop(session=session)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
-    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
-    runtestprotocol(item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
-    reports.append(call_and_report(item, "call", log))
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
-    call = call_runtest_hook(item, when, **kwds)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
-    self.result = func()
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
-    item.runtest()
-  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
-    self._testcase(result=self)
-  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
-    testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 33, in test_open_add_window
-    self.cp.navigate_to_Controller_Add_window()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 109, in navigate_to_Controller_Add_window
-    self.clickAddButton()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 42, in clickAddButton
-    self.elementClick(self._add_button, locatorType="xpath")
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 109, in elementClick
-    print_stack()
-controller_tests.py         32 INFO     test_open_add_window
-selenium_driver.py         222 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
-selenium_driver.py         229 INFO     Element appeared on the web page
-selenium_driver.py          72 INFO     Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
-selenium_driver.py         105 INFO     Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
-selenium_driver.py         222 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
-selenium_driver.py         231 INFO     Element not appeared on the web page
-selenium_driver.py          72 INFO     Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
-selenium_driver.py         108 INFO     Cannot click on the element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
-selenium_driver.py          75 INFO     Element not found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
-selenium_driver.py         108 INFO     Cannot click on the element with locator: .//button[contains(text(),'Add')] locatorType: xpath
-selenium_driver.py          75 INFO     Element not found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
-selenium_driver.py         172 INFO     Element not present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
-controller_Page.py          46 INFO     Add window appear status is False]]></stdout>
-<stderr><![CDATA[  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
-    main()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
-    return pytest.main(argv)
-  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
-    return config.hook.pytest_cmdline_main(config=config)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
-    return wrap_session(config, _main)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
-    session.exitstatus = doit(config, session) or 0
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
-    config.hook.pytest_runtestloop(session=session)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
-    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
-    runtestprotocol(item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
-    reports.append(call_and_report(item, "call", log))
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
-    call = call_runtest_hook(item, when, **kwds)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
-    self.result = func()
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
-    item.runtest()
-  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
-    self._testcase(result=self)
-  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
-    testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 33, in test_open_add_window
-    self.cp.navigate_to_Controller_Add_window()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 108, in navigate_to_Controller_Add_window
-    self.navigateControllerPage()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 103, in navigateControllerPage
-    self.waitForElement(self._controller_menu, locatorType="Xpath", pollFrequency=1)
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 232, in waitForElement
-    print_stack()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
-    main()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
-    return pytest.main(argv)
-  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
-    return config.hook.pytest_cmdline_main(config=config)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
-    return wrap_session(config, _main)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
-    session.exitstatus = doit(config, session) or 0
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
-    config.hook.pytest_runtestloop(session=session)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
-    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
-    runtestprotocol(item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
-    reports.append(call_and_report(item, "call", log))
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
-    call = call_runtest_hook(item, when, **kwds)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
-    self.result = func()
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
-    item.runtest()
-  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
-    self._testcase(result=self)
-  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
-    testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 33, in test_open_add_window
-    self.cp.navigate_to_Controller_Add_window()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 108, in navigate_to_Controller_Add_window
-    self.navigateControllerPage()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 104, in navigateControllerPage
-    self.elementClick(self._controller_menu, locatorType="Xpath")
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 109, in elementClick
-    print_stack()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 254, in <module>
-    main()
-  File "D:\software\eclipse\plugins\org.python.pydev_6.2.0.201711281614\pysrc\runfiles.py", line 246, in main
-    return pytest.main(argv)
-  File "C:\Python36-32\lib\site-packages\_pytest\config.py", line 59, in main
-    return config.hook.pytest_cmdline_main(config=config)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 131, in pytest_cmdline_main
-    return wrap_session(config, _main)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 100, in wrap_session
-    session.exitstatus = doit(config, session) or 0
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 138, in _main
-    config.hook.pytest_runtestloop(session=session)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\main.py", line 161, in pytest_runtestloop
-    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 62, in pytest_runtest_protocol
-    runtestprotocol(item, nextitem=nextitem)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 79, in runtestprotocol
-    reports.append(call_and_report(item, "call", log))
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 158, in call_and_report
-    call = call_runtest_hook(item, when, **kwds)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in call_runtest_hook
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 192, in __init__
-    self.result = func()
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 178, in <lambda>
-    return CallInfo(lambda: ihook(item=item, **kwds), when=when)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 617, in __call__
-    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 222, in _hookexec
-    return self._inner_hookexec(hook, methods, kwargs)
-  File "C:\Python36-32\lib\site-packages\pluggy\__init__.py", line 216, in <lambda>
-    firstresult=hook.spec_opts.get('firstresult'),
-  File "C:\Python36-32\lib\site-packages\pluggy\callers.py", line 180, in _multicall
-    res = hook_impl.function(*args)
-  File "C:\Python36-32\lib\site-packages\_pytest\runner.py", line 109, in pytest_runtest_call
-    item.runtest()
-  File "C:\Python36-32\lib\site-packages\_pytest\unittest.py", line 174, in runtest
-    self._testcase(result=self)
-  File "C:\Python36-32\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "C:\Python36-32\lib\unittest\case.py", line 605, in run
-    testMethod()
-  File "C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py", line 33, in test_open_add_window
-    self.cp.navigate_to_Controller_Add_window()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 109, in navigate_to_Controller_Add_window
-    self.clickAddButton()
-  File "C:\Users\user\workspace\com.instasafev2\src\pages\companyPortal\controller_Page.py", line 42, in clickAddButton
-    self.elementClick(self._add_button, locatorType="xpath")
-  File "C:\Users\user\workspace\com.instasafev2\src\base\selenium_driver.py", line 109, in elementClick
-    print_stack()
-]]></stderr>
-</test>
-<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="fail" test="ControllerTests.test_t1AddController" time="0.00">
-<stdout/>
-<stderr><![CDATA[self = <unittest.case._Outcome object at 0x03C16750>
-test_case = <tests.controller_tests.ControllerTests testMethod=test_t1AddController>
-isTest = True
-
-    @contextlib.contextmanager
-    def testPartExecutor(self, test_case, isTest=False):
-        old_success = self.success
-        self.success = True
-        try:
->           yield
-
-C:\Python36-32\lib\unittest\case.py:59: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = <tests.controller_tests.ControllerTests testMethod=test_t1AddController>
-result = <TestCaseFunction 'test_t1AddController'>
-
-    def run(self, result=None):
-        orig_result = result
-        if result is None:
-            result = self.defaultTestResult()
-            startTestRun = getattr(result, 'startTestRun', None)
-            if startTestRun is not None:
-                startTestRun()
-    
-        result.startTest(self)
-    
-        testMethod = getattr(self, self._testMethodName)
-        if (getattr(self.__class__, "__unittest_skip__", False) or
-            getattr(testMethod, "__unittest_skip__", False)):
-            # If the class or method was skipped.
-            try:
-                skip_why = (getattr(self.__class__, '__unittest_skip_why__', '')
-                            or getattr(testMethod, '__unittest_skip_why__', ''))
-                self._addSkip(result, self, skip_why)
-            finally:
-                result.stopTest(self)
-            return
-        expecting_failure_method = getattr(testMethod,
-                                           "__unittest_expecting_failure__", False)
-        expecting_failure_class = getattr(self,
-                                          "__unittest_expecting_failure__", False)
-        expecting_failure = expecting_failure_class or expecting_failure_method
-        outcome = _Outcome(result)
-        try:
-            self._outcome = outcome
-    
-            with outcome.testPartExecutor(self):
-                self.setUp()
-            if outcome.success:
-                outcome.expecting_failure = expecting_failure
-                with outcome.testPartExecutor(self, isTest=True):
->                   testMethod()
-E                   TypeError: test_t1AddController() takes 0 positional arguments but 1 was given
-
-C:\Python36-32\lib\unittest\case.py:605: TypeError]]></stderr>
+<test location="C:\Users\user\workspace\python\src\tests\home\login_tests.py" status="ok" test="LoginTests.test_t2validLogin" time="8.46">
+<stdout><![CDATA[login_tests.py              31 INFO     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+login_tests.py              32 INFO     test_t1invalidLogin started
+login_tests.py              33 INFO     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+selenium_driver.py          67 INFO     Element found with locator: Login and  locatorType: link
+selenium_driver.py         100 INFO     Clicked on element with locator: Login locatorType: link
+selenium_driver.py          67 INFO     Element found with locator: user_email and  locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: user_password and  locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: user_email and  locatorType: id
+selenium_driver.py         116 INFO     Sent data on element with locator: user_email locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: user_password and  locatorType: id
+selenium_driver.py         116 INFO     Sent data on element with locator: user_password locatorType: id
+selenium_driver.py          67 INFO     Element found with locator: commit and  locatorType: name
+selenium_driver.py         100 INFO     Clicked on element with locator: commit locatorType: name
+util.py                     81 INFO     Actual Text From Application Web UI --> :: Let's Kode It
+util.py                     82 INFO     Expected Text From Application Web UI --> :: Let's Kode It
+util.py                     84 INFO     ### VERIFICATION CONTAINS !!!
+teststatus.py               31 INFO     ### VERIFICATION SUCCESSFUL :: + Title Verification
+selenium_driver.py         217 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
+selenium_driver.py         224 INFO     Element appeared on the web page
+selenium_driver.py          67 INFO     Element found with locator: //div[@id='navbar']//li[@class='dropdown'] and  locatorType: xpath
+selenium_driver.py         163 INFO     Element present with locator: //div[@id='navbar']//li[@class='dropdown'] locatorType: xpath
+teststatus.py               31 INFO     ### VERIFICATION SUCCESSFUL :: + Login Verification
+teststatus.py               65 INFO     test_t2validLogin ### TEST SUCCESSFUL]]></stdout>
+<stderr/>
 </test>
 <launch mode="run">
 <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration local="true" path="com.instasafev2 controller_tests.py"/>
+<launchConfiguration local="true" path="python login_tests.py"/>
 ]]></launch_memento>
 </launch>
 </pydev-testsuite>

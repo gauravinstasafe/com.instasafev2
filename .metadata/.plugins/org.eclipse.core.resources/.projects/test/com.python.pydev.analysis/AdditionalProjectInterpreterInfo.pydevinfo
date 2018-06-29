@@ -1,12 +1,19 @@
 -- VERSION_4
 -- START DISKCACHE_2
 C:\Users\user\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\test\com.python.pydev.analysis\v2_indexcache
+testing.test|1519800319221066000|C:\Users\user\workspace\test\srce\testing\test.py
+testing.__init__|1519798357511387000|C:\Users\user\workspace\test\srce\testing\__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+1
+1=testing.test
 -- END DICTIONARY
 -- START TREE 1
-0
+4
+a|1|a!11@
+b|1|b!11@
+d|1|d!11@
+h|1|h!11@
 -- END TREE
 -- START TREE 2
 0

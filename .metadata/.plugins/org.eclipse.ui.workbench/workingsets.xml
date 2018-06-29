@@ -2,5 +2,6 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508956789625_1" label="instasafev2" name="instasafev2"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1505049037753_0" label="Window Working Set" name="Aggregate for window 1505049037752"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1520099454739_2" label="Window Working Set" name="Aggregate for window 1520099454739"/>
 <mruList name="instasafev2"/>
 </workingSetManager>

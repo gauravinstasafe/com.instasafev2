@@ -1,96 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pydev-testrun version="1.0"?><pydev-testsuite>
-<summary errors="0" failures="1" finished="true" name="Test Run: 23" tests="3" total_time="Finished in: 28.20 secs."/>
-<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="ok" test="ControllerTests.test_close_whatfix_window" time="10.21">
-<stdout><![CDATA[controller_tests.py         26 INFO     try to close whatfix_window
-controller_Page.py          93 INFO     waiting for the element
-selenium_driver.py          72 INFO     Element found with locator: .//*[@id='wfx-frame-smartPopup'] and  locatorType: xpath
-selenium_driver.py         299 INFO     switch to i frame
-controller_Page.py          96 INFO     switching frame now
-selenium_driver.py          72 INFO     Element found with locator: .//button[@class='WFSTCY'] and  locatorType: xpath
-selenium_driver.py         105 INFO     Clicked on element with locator: .//button[@class='WFSTCY'] locatorType: Xpath
-controller_tests.py         28 INFO     close_whatfix_window]]></stdout>
-<stderr/>
+<summary errors="2" failures="0" finished="true" name="Test Run: 31" tests="2" total_time="Finished in: 14.39 secs."/>
+<test location="C:\Users\user\workspace\python\src\tests\home\login_tests.py" status="error" test="LoginTests.test_t1invalidLogin" time="13.29">
+<stdout><![CDATA[login_tests.py              14 INFO     <selenium.webdriver.firefox.webdriver.WebDriver (session="372ac296-25ce-4661-b403-d0db1ea419d5")>]]></stdout>
+<stderr><![CDATA[self = <tests.home.login_tests.LoginTests testMethod=test_t1invalidLogin>
+oneTimeSetUp = <selenium.webdriver.firefox.webdriver.WebDriver (session="372ac296-25ce-4661-b403-d0db1ea419d5")>
+
+    @pytest.fixture(autouse=True)
+    def objectSetup(self, oneTimeSetUp):
+        self.log.info(oneTimeSetUp)
+        self.lp = LoginPage(oneTimeSetUp)
+>       self.ts = TestStatus(self.driver)
+E       AttributeError: 'LoginTests' object has no attribute 'driver'
+
+tests\home\login_tests.py:16: AttributeError]]></stderr>
 </test>
-<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="ok" test="ControllerTests.test_open_add_window" time="2.99">
-<stdout><![CDATA[controller_tests.py         32 INFO     test_open_add_window
-selenium_driver.py         222 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
-selenium_driver.py         229 INFO     Element appeared on the web page
-selenium_driver.py          72 INFO     Element found with locator: .//span[contains(text(),'Controllers &')] and  locatorType: xpath
-selenium_driver.py         105 INFO     Clicked on element with locator: .//span[contains(text(),'Controllers &')] locatorType: Xpath
-selenium_driver.py         222 INFO     Waiting for maximum :: 10 :: seconds for element to be clickable
-selenium_driver.py         229 INFO     Element appeared on the web page
-selenium_driver.py          72 INFO     Element found with locator: .//a[contains(text(),'Controllers')] and  locatorType: xpath
-selenium_driver.py         105 INFO     Clicked on element with locator: .//a[contains(text(),'Controllers')] locatorType: Xpath
-selenium_driver.py          72 INFO     Element found with locator: .//button[contains(text(),'Add')] and  locatorType: xpath
-selenium_driver.py         105 INFO     Clicked on element with locator: .//button[contains(text(),'Add')] locatorType: xpath
-selenium_driver.py          72 INFO     Element found with locator: .//h2[contains(text(),'Add Controller')] and  locatorType: xpath
-selenium_driver.py         168 INFO     Element present with locator: .//h2[contains(text(),'Add Controller')] locatorType: Xpath
-controller_Page.py          46 INFO     Add window appear status is True]]></stdout>
-<stderr/>
-</test>
-<test location="C:\Users\user\workspace\com.instasafev2\src\tests\controller_tests.py" status="fail" test="ControllerTests.test_t1AddController" time="0.00">
-<stdout/>
-<stderr><![CDATA[self = <unittest.case._Outcome object at 0x03A341F0>
-test_case = <tests.controller_tests.ControllerTests testMethod=test_t1AddController>
-isTest = True
+<test location="C:\Users\user\workspace\python\src\tests\home\login_tests.py" status="error" test="LoginTests.test_t2validLogin" time="0.00">
+<stdout><![CDATA[login_tests.py              14 INFO     <selenium.webdriver.firefox.webdriver.WebDriver (session="372ac296-25ce-4661-b403-d0db1ea419d5")>]]></stdout>
+<stderr><![CDATA[self = <tests.home.login_tests.LoginTests testMethod=test_t2validLogin>
+oneTimeSetUp = <selenium.webdriver.firefox.webdriver.WebDriver (session="372ac296-25ce-4661-b403-d0db1ea419d5")>
 
-    @contextlib.contextmanager
-    def testPartExecutor(self, test_case, isTest=False):
-        old_success = self.success
-        self.success = True
-        try:
->           yield
+    @pytest.fixture(autouse=True)
+    def objectSetup(self, oneTimeSetUp):
+        self.log.info(oneTimeSetUp)
+        self.lp = LoginPage(oneTimeSetUp)
+>       self.ts = TestStatus(self.driver)
+E       AttributeError: 'LoginTests' object has no attribute 'driver'
 
-C:\Python36-32\lib\unittest\case.py:59: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = <tests.controller_tests.ControllerTests testMethod=test_t1AddController>
-result = <TestCaseFunction 'test_t1AddController'>
-
-    def run(self, result=None):
-        orig_result = result
-        if result is None:
-            result = self.defaultTestResult()
-            startTestRun = getattr(result, 'startTestRun', None)
-            if startTestRun is not None:
-                startTestRun()
-    
-        result.startTest(self)
-    
-        testMethod = getattr(self, self._testMethodName)
-        if (getattr(self.__class__, "__unittest_skip__", False) or
-            getattr(testMethod, "__unittest_skip__", False)):
-            # If the class or method was skipped.
-            try:
-                skip_why = (getattr(self.__class__, '__unittest_skip_why__', '')
-                            or getattr(testMethod, '__unittest_skip_why__', ''))
-                self._addSkip(result, self, skip_why)
-            finally:
-                result.stopTest(self)
-            return
-        expecting_failure_method = getattr(testMethod,
-                                           "__unittest_expecting_failure__", False)
-        expecting_failure_class = getattr(self,
-                                          "__unittest_expecting_failure__", False)
-        expecting_failure = expecting_failure_class or expecting_failure_method
-        outcome = _Outcome(result)
-        try:
-            self._outcome = outcome
-    
-            with outcome.testPartExecutor(self):
-                self.setUp()
-            if outcome.success:
-                outcome.expecting_failure = expecting_failure
-                with outcome.testPartExecutor(self, isTest=True):
->                   testMethod()
-E                   TypeError: test_t1AddController() takes 0 positional arguments but 1 was given
-
-C:\Python36-32\lib\unittest\case.py:605: TypeError]]></stderr>
+tests\home\login_tests.py:16: AttributeError]]></stderr>
 </test>
 <launch mode="run">
 <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration local="true" path="com.instasafev2 controller_tests.py"/>
+<launchConfiguration local="true" path="python login_tests.py"/>
 ]]></launch_memento>
 </launch>
 </pydev-testsuite>

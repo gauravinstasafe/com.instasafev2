@@ -15,7 +15,7 @@ public class SnapShot {
 
         //Call getScreenshotAs method to create image file
 
-                File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+//                File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 
             //Move image file to new destination
 
@@ -23,6 +23,6 @@ public class SnapShot {
 
                 //Copy file at destination
 
-	     FileUtils.copyFile(SrcFile, DestFile);
+//	     FileUtils.copyFile(SrcFile, DestFile);
 	}
 }

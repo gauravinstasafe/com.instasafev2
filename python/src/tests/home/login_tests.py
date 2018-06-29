@@ -8,18 +8,20 @@ import logging
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
     log = cl.customLogger(logging.DEBUG)
-
+    
     @pytest.fixture(autouse=True)
     def objectSetup(self, oneTimeSetUp):
-        self.lp = LoginPage(self.driver)
-        self.ts = TestStatus(self.driver)
+        self.log.info(oneTimeSetUp)
+        self.lp = LoginPage(oneTimeSetUp)
+        self.ts = TestStatus(oneTimeSetUp)
+        
 
     @pytest.mark.run(order=1)
     def test_t1invalidLogin(self):
         self.log.info("*#" * 20)
         self.log.info("test_t1invalidLogin started")
         self.log.info("*#" * 20)
-        self.lp.logout()
+        #self.lp.logout()
         self.lp.login("test@email.com", "abcabcabc")
         result = self.lp.verifyLoginFailed()
         assert result == True

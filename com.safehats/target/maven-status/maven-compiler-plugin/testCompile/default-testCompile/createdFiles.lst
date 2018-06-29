@@ -2,8 +2,6 @@ com\safehats\utilities\Listner.class
 com\safehats\utilities\Log.class
 com\safehats\base\IConstants.class
 com\safehats\tests\NewTest.class
-com\safehats\com\safehats\AppTest.class
 com\safehats\base\constant.class
-com\safehats\tests\AppTest.class
 com\safehats\utilities\SnapShot.class
 com\safehats\pages\LoginPage.class
